@@ -3,7 +3,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import { useGetWpData } from '../composables/useGetWpData'
 
 const { getWpData } = useGetWpData();
-
 const wpData = await getWpData();
 
 const routes = [
